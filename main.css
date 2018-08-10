@@ -34,19 +34,6 @@ b, strong {
     font-weight: 600;
 }
 
-samp {
-    display: none;
-}
-
-img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: block;
-    margin: 1.3em auto;
-    max-width: 95%;
-}
 
 
 div.board{
@@ -57,27 +44,22 @@ div.board{
     padding: 5px ;
     word-spacing: 7px;
     text-decoration:none;
-    
     }
 
-    
-    
     div.low{
     width: auto;
-  background-color:darkgray;  
+    background-color:darkgray;  
     text-align: center;
     vertical-align: middle;
     padding: 5px ;
+    margin-top: 15px;
     font-size: 13px;
     }
     
     
 div.about {
     margin-top: 30px;
-    
 }
-
-
 
 
 @keyframes colorize {
